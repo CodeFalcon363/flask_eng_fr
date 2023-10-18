@@ -20,6 +20,8 @@ You'll also need to create a `.env` file in the same directory as your Flask app
 apikey=YOUR_IBM_WATSON_API_KEY
 url=YOUR_IBM_WATSON_SERVICE_URL
 SECRET_KEY=YOUR_SECRET_KEY
+```
+
 
 Replace YOUR_IBM_WATSON_API_KEY and YOUR_IBM_WATSON_SERVICE_URL with your IBM Watson credentials, and YOUR_SECRET_KEY with a secure secret key for your Flask app.
 
@@ -32,12 +34,13 @@ Install the required Python packages using pip:
 
 ```bash
 pip install ibm-watson flask python-dotenv
+```
+
 
 Run the Flask app:
-
 ```bash
 flask run
-
+```
 Access the web application in your web browser at http://localhost:5000.
 
 ## Features
