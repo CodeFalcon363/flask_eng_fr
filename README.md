@@ -16,7 +16,7 @@ Before running the Flask application, make sure you have the following prerequis
 
 You'll also need to create a `.env` file in the same directory as your Flask app with the following content:
 
-```dotenv
+```bash
 apikey=YOUR_IBM_WATSON_API_KEY
 url=YOUR_IBM_WATSON_SERVICE_URL
 SECRET_KEY=YOUR_SECRET_KEY
